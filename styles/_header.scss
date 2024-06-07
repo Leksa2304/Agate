@@ -1,0 +1,34 @@
+.header {
+    background-color: rgba(0, 0, 0, .42);
+    padding: 44px 359px 45px 372px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+        padding: 0 118px 0 132px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 13px 31px 13px 42px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 8px 13px 8px 24px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+}

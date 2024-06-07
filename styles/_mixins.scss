@@ -1,0 +1,82 @@
+    @mixin pseudo-circle($color, $content) {
+        position: absolute;
+        top: -29px;
+        left: -29px;
+        color: #FFF;
+        font-size: 0.56rem;
+        border-radius: 50%;
+        width: 58px;
+        height: 58px;
+        text-align: center;
+        line-height: 58px;
+        font-weight: 600;
+        background-color: $color;
+        content: $content;
+    }
+    
+    @mixin flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    @mixin pseudo-circle1250 {
+        font-size: .48rem;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -20px;
+        left: -20px;
+    }
+    
+    @mixin pseudo-circle1024 {
+        font-size: .48rem;
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        top: -26px;
+        left: -26px;
+    }
+    
+    @mixin pseudo-circle768 {
+        font-size: .56rem;
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        top: -28px;
+        left: -28px;
+    }
+    
+    @mixin button-style($color) {
+        font-size: .8rem;
+        font-weight: 600;
+        margin: 0 auto;
+        display: flex;
+        width: 312px;
+        height: 60px;
+        border: 2px solid;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: $color;
+        &:hover {
+            background-color: $btn-hover;
+            color: $accent-color;
+            border: none;
+            transition-duration: .7s;
+        }
+    }
+    
+    @mixin button-style1024($color) {
+        font-size: .68rem;
+        font-weight: 600;
+        margin: 0 auto;
+        display: flex;
+        width: 248px;
+        height: 48px;
+    }
+    
+    @mixin item-hover {
+        transform: scale(1.3);
+        transition-duration: .5s;
+    }

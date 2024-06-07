@@ -1,0 +1,28 @@
+.contacts {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    &__item {
+        font-weight: 300;
+        line-height: 49.66px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts__item {
+        font-size: 1rem;
+        line-height: 35.47px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts__item {
+        font-size: .88rem;
+        line-height: 31.21px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contacts__item {
+        font-size: .8rem;
+    }
+}

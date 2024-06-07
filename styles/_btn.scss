@@ -1,0 +1,16 @@
+.btn--white {
+    @include button-style($accent-color);
+}
+
+.btn--black {
+    @include button-style(#000);
+}
+
+@media screen and (max-width: 1024px) {
+    .btn--white {
+        @include button-style1024($accent-color);
+    }
+    .btn--black {
+        @include button-style1024(#000);
+    }
+}

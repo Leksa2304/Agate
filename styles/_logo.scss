@@ -1,0 +1,22 @@
+.logo {
+    font-size: 2rem;
+    &:hover {
+        @include item-hover;
+        transform: rotate(180deg);
+        transition-delay: .2s;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        display: block;
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,27 @@
+.about {
+    background-color: $bg-section;
+    &__text {
+        max-width: 941px;
+        line-height: 40.74px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about__text {
+        max-width: 602px;
+        line-height: 29.88px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__text {
+        max-width: 541px;
+        line-height: 27.16px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .about__text {
+        max-width: 360px;
+    }
+}

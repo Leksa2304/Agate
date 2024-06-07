@@ -1,0 +1,51 @@
+.cook {
+    background-color: $bg-section;
+    text-align: center;
+    &__avatar {
+        max-width: 398px;
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        margin: 30px 0;
+        line-height: 31.33px;
+    }
+    &__text {
+        line-height: 41.19px;
+        max-width: 939px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cook__avatar {
+        max-width: 282px;
+    }
+    .cook__subtitle {
+        font-size: .88rem;
+        line-height: 27.57px;
+    }
+    .cook__text {
+        max-width: 691px;
+        line-height: 30.21px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cook__avatar {
+        max-width: 251px;
+    }
+    .cook__subtitle {
+        font-size: .8rem;
+        margin: 20px 0;
+        line-height: 25.06px;
+    }
+    .cook__text {
+        max-width: 626px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .cook__text {
+        max-width: 360px;
+        line-height: 27.46px;
+    }
+}

@@ -1,0 +1,27 @@
+.btn-up {
+    position: fixed;
+    bottom: 19px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FFAC1C;
+    line-height: 70px;
+    text-align: center;
+    &__item {
+        position: relative;
+    }
+    &:hover {
+        @include item-hover;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .btn-up {
+        bottom: 15px;
+        right: 15px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+}

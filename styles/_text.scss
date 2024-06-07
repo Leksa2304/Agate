@@ -1,0 +1,21 @@
+.text {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .text {
+        font-size: .88rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .text {
+        font-size: $small-font;
+    }
+}
